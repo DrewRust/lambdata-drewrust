@@ -1,13 +1,18 @@
 """
-lambdata-drewrust - U3S1M1
+this is what tells the program it's a package (to import in test_func.py)
+don't even need anything in it really 
 """
 
-import pandas as pd
-import numpy as np
-# from sklearn.model_selection import train_test_split
+# """
+# lambdata-drewrust - U3S1M1
+# """
 
-ZEROS = np.zeros(5)
-ONES = np.ones(10)
+# import pandas as pd
+# import numpy as np
+# # from sklearn.model_selection import train_test_split
+
+# ZEROS = np.zeros(5)
+# ONES = np.ones(10)
 
 # def train_validation_test_split(
 #     x, y, trains_size=0.7, val_size=0.1, test_size=0.2,
