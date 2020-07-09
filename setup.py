@@ -1,0 +1,31 @@
+"""
+lambdata-drewrust - U3S1M1
+"""
+
+import setuptools
+
+REQUIRED = [
+    "numpy",
+    "pandas"
+]
+
+with open("READ.md", "r") as fh:
+    LONG_DESCRIPTION = fh.read()
+
+setuptools.setup(
+    name="lambdata-drewrust",
+    version="0.0.1",
+    author="drewrust",
+    description="U3S1M1",
+    long_description=LONG_DESCRIPTION,
+    long_description_content_type="text/markdown",
+    url="https://github.com/DrewRust/lambdata-drewrust",
+    packages=setuptools.find_packages(),
+    python_requires=">=3.6",
+    install_required=REQUIRED,
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+)
