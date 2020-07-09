@@ -1,7 +1,7 @@
 
 import pandas as pd
 import numpy as np
-# from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 
 def my_train_val_test_split(df):
   train_1, test = train_test_split(df, test_size=0.15, random_state=42)
