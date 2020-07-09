@@ -14,7 +14,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lambdata-drewrust",
-    version="0.0.1",
+    version="0.0.2",
     author="drewrust",
     description="U3S1M1",
     long_description=LONG_DESCRIPTION,
